@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+  config:
+    import: optional:classpath:certs/config.properties
+  mail:
+    password: hello
+    username: hello
+    port: 1025
+    host: localhost
+
+client:
+  web: http://localhost:3000
+  scanner: http://localhost:3001
+
+flutterwave:
+  secrete: ${SECRETE_KEY}
+  flutterwaveEncKey: ${FLUTTERWAVE_ENC_KEY}
+  publicKey: ${FLW_PUBLIC_KEY}
+
+
+
+

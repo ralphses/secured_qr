@@ -1,0 +1,16 @@
+spring:
+  config:
+    import: optional:certs/config.properties
+  datasource:
+    username: ${DB_USERNAME}
+    url: ${DB_URL}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+special:
+  value: ${SPECIAL_NUMBER}
