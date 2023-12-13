@@ -18,6 +18,8 @@ flutterwave:
   flutterwaveEncKey: ${FLUTTERWAVE_ENC_KEY}
   publicKey: ${FLW_PUBLIC_KEY}
 
+special:
+  value: ${SPECIAL_NUMBER}
 
 
 

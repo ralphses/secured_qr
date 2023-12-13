@@ -12,5 +12,4 @@ spring:
     properties:
       hibernate:
         format_sql: true
-special:
-  value: ${SPECIAL_NUMBER}
+
